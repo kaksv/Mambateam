@@ -10,7 +10,7 @@ ft-main-io = { git = "https://github.com/gear-dapps/sharded-fungible-token.git",
 ft-logic-io = { git = "https://github.com/gear-dapps/sharded-fungible-token.git", tag = "0.1.4" }
 gstd = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 dao-io = { path = "io" }
-hashbrown = "0.13.1"
+hashbrown = "0.14.0"
 
 [dev-dependencies]
 gstd = { git = "https://github.com/gear-tech/gear.git", branch = "testnet", features = ["debug"] }
